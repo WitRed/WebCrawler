@@ -2,7 +2,7 @@ from newsapi import NewsApiClient
 
 
 def get_api_key() -> str:
-    with(open('/home/cagri/workspace/fakenews/api_key')) as api_key:
+    with(open('api_key')) as api_key:
         return api_key.readline()
 
 
